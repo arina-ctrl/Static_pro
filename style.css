@@ -116,14 +116,6 @@ body {
     position: relative;
 }
 
-.avatar {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 5px solid white;
-}
-
 .avatar-overlay {
     position: absolute;
     bottom: 10px;
@@ -651,4 +643,5 @@ body {
         height: 40px;
     }
 }
+
 
