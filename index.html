@@ -1,183 +1,398 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Портфолио | Белякова А.В.</title>
+    <title>Портфолио | Белякова Арина</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&family=Dancing+Script:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
+
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="header-content">
-                <div class="profile-image">
-                    <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300&q=80" alt="Фото профиля">
-                </div>
-                <div class="profile-info">
-                    <h1>Белякова Анна Владимировна</h1>
-                    <p class="subtitle">Студентка группы ИТКГ-524</p>
-                    <p class="tagline">Веб-разработчик & Дизайнер</p>
-                    <div class="contact-info">
-                        <p><i class="fas fa-map-marker-alt"></i> Москва, Россия</p>
-                        <p><i class="fas fa-envelope"></i> belyakova.av@student.kosygin.ru</p>
-                        <p><i class="fas fa-phone"></i> +7 (999) 123-45-67</p>
+    <!-- Цветочные декоративные элементы -->
+    <div class="flower-decor flower-1"></div>
+    <div class="flower-decor flower-2"></div>
+    <div class="flower-decor flower-3"></div>
+    <div class="flower-decor flower-4"></div>
+
+    <!-- Главный контейнер -->
+    <div class="container">
+        <!-- Боковая панель с информацией -->
+        <aside class="sidebar">
+            <div class="profile-card">
+                <div class="avatar-container">
+                    <div class="avatar-frame">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b6fe786?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=400&q=80"
+                            alt="Арина Белякова" class="avatar">
+                        <div class="avatar-overlay">
+                            <i class="fas fa-heart"></i>
+                        </div>
                     </div>
+                    <div class="status-dot"></div>
+                </div>
+
+                <h1 class="name">Арина Белякова</h1>
+                <p class="title">Веб-разработчик & Дизайнер</p>
+
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div>
+                            <span class="contact-label">Группа</span>
+                            <span class="contact-value">ИТКГ-524</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-university"></i>
+                        <div>
+                            <span class="contact-label">Университет</span>
+                            <span class="contact-value">РГУ им. Косыгина</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <span class="contact-label">Город</span>
+                            <span class="contact-value">Москва</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <span class="contact-label">Email</span>
+                            <span class="contact-value">arina@student.kosygin.ru</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="#" class="social-btn pink">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="social-btn coral">
+                        <i class="fab fa-behance"></i>
+                    </a>
+                    <a href="#" class="social-btn blush">
+                        <i class="fab fa-dribbble"></i>
+                    </a>
+                    <a href="#" class="social-btn mauve">
+                        <i class="fab fa-telegram"></i>
+                    </a>
+                </div>
+
+                <div class="quote">
+                    <i class="fas fa-quote-left"></i>
+                    <p>Создаю красоту в коде и дизайне</p>
+                    <i class="fas fa-quote-right"></i>
                 </div>
             </div>
-        </div>
-    </header>
+        </aside>
 
-    <main class="main-content">
-        <div class="container">
-            <section class="section about">
-                <h2><i class="fas fa-user"></i> Обо мне</h2>
-                <p>Студентка 2 курса Российского государственного университета им. А.Н. Косыгина по направлению "Информационные системы и технологии". Увлекаюсь веб-разработкой, дизайном интерфейсов и созданием современных цифровых решений. Стремлюсь к постоянному профессиональному росту и освоению новых технологий.</p>
-            </section>
-
-            <section class="section skills">
-                <h2><i class="fas fa-code"></i> Профессиональные навыки</h2>
-                <div class="skills-grid">
-                    <div class="skill-category">
-                        <h3><i class="fas fa-laptop-code"></i> Frontend-разработка</h3>
-                        <ul>
-                            <li><span class="skill-name">HTML5 & CSS3</span>
-                                <div class="skill-bar">
-                                    <div class="skill-level" style="width: 95%"></div>
-                                </div>
-                            </li>
-                            <li><span class="skill-name">JavaScript (ES6+)</span>
-                                <div class="skill-bar">
-                                    <div class="skill-level" style="width: 80%"></div>
-                                </div>
-                            </li>
-                            <li><span class="skill-name">React.js</span>
-                                <div class="skill-bar">
-                                    <div class="skill-level" style="width: 70%"></div>
-                                </div>
-                            </li>
-                            <li><span class="skill-name">Адаптивный дизайн</span>
-                                <div class="skill-bar">
-                                    <div class="skill-level" style="width: 90%"></div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="skill-category">
-                        <h3><i class="fas fa-server"></i> Backend-разработка</h3>
-                        <ul>
-                            <li><span class="skill-name">PHP</span>
-                                <div class="skill-bar">
-                                    <div class="skill-level" style="width: 85%"></div>
-                                </div>
-                            </li>
-                            <li><span class="skill-name">Node.js</span>
-                                <div class="skill-bar">
-                                    <div class="skill-level" style="width: 65%"></div>
-                                </div>
-                            </li>
-                            <li><span class="skill-name">MySQL / PostgreSQL</span>
-                                <div class="skill-bar">
-                                    <div class="skill-level" style="width: 75%"></div>
-                                </div>
-                            </li>
-                            <li><span class="skill-name">REST API</span>
-                                <div class="skill-bar">
-                                    <div class="skill-level" style="width: 70%"></div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="skill-category">
-                        <h3><i class="fas fa-paint-brush"></i> Дизайн и инструменты</h3>
-                        <ul>
-                            <li><span class="skill-name">Adobe Photoshop</span>
-                                <div class="skill-bar">
-                                    <div class="skill-level" style="width: 85%"></div>
-                                </div>
-                            </li>
-                            <li><span class="skill-name">Figma</span>
-                                <div class="skill-bar">
-                                    <div class="skill-level" style="width: 90%"></div>
-                                </div>
-                            </li>
-                            <li><span class="skill-name">Git & GitHub</span>
-                                <div class="skill-bar">
-                                    <div class="skill-level" style="width: 80%"></div>
-                                </div>
-                            </li>
-                            <li><span class="skill-name">Webpack / Vite</span>
-                                <div class="skill-bar">
-                                    <div class="skill-level" style="width: 65%"></div>
-                                </div>
-                            </li>
-                        </ul>
+        <!-- Основной контент -->
+        <main class="main-content">
+            <!-- Приветствие -->
+            <section class="welcome-section animate__animated animate__fadeIn">
+                <div class="welcome-text">
+                    <h2 class="section-title">
+                        <span class="title-icon"><i class="fas fa-star"></i></span>
+                        Привет, я Арина
+                    </h2>
+                    <p class="welcome-message">Студентка направления "Информационные технологии в дизайне". Увлекаюсь
+                        созданием красивых и функциональных веб-интерфейсов. Объединяю технические навыки с эстетическим
+                        видением.</p>
+                </div>
+                <div class="welcome-decoration">
+                    <div class="floating-element">
+                        <i class="fas fa-code"></i>
                     </div>
                 </div>
             </section>
 
-            <section class="section projects">
-                <h2><i class="fas fa-project-diagram"></i> Учебные проекты</h2>
+            <!-- Навыки -->
+            <section class="skills-section">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <span class="title-icon"><i class="fas fa-magic"></i></span>
+                        Мои навыки
+                    </h2>
+                    <p class="section-subtitle">Технологии, которые я использую в работе</p>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Веб-разработка -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fas fa-laptop-code category-icon"></i>
+                            <h3>Веб-разработка</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">HTML5 & CSS3</span>
+                                    <span class="skill-percent">95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"
+                                        style="width: 95%; background: linear-gradient(90deg, #ff9a9e, #fad0c4);"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">JavaScript</span>
+                                    <span class="skill-percent">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"
+                                        style="width: 85%; background: linear-gradient(90deg, #ff9a9e, #fad0c4);"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">React</span>
+                                    <span class="skill-percent">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"
+                                        style="width: 80%; background: linear-gradient(90deg, #ff9a9e, #fad0c4);"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Дизайн -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fas fa-paint-brush category-icon"></i>
+                            <h3>Дизайн</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Figma</span>
+                                    <span class="skill-percent">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"
+                                        style="width: 90%; background: linear-gradient(90deg, #a18cd1, #fbc2eb);"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Adobe Creative</span>
+                                    <span class="skill-percent">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"
+                                        style="width: 75%; background: linear-gradient(90deg, #a18cd1, #fbc2eb);"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">UI/UX Design</span>
+                                    <span class="skill-percent">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"
+                                        style="width: 85%; background: linear-gradient(90deg, #a18cd1, #fbc2eb);"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Backend -->
+                    <div class="skill-category-card">
+                        <div class="category-header">
+                            <i class="fas fa-server category-icon"></i>
+                            <h3>Backend</h3>
+                        </div>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">PHP</span>
+                                    <span class="skill-percent">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"
+                                        style="width: 80%; background: linear-gradient(90deg, #ffecd2, #fcb69f);"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Node.js</span>
+                                    <span class="skill-percent">70%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"
+                                        style="width: 70%; background: linear-gradient(90deg, #ffecd2, #fcb69f);"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">PostgreSQL</span>
+                                    <span class="skill-percent">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress"
+                                        style="width: 75%; background: linear-gradient(90deg, #ffecd2, #fcb69f);"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Проекты -->
+            <section class="projects-section">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <span class="title-icon"><i class="fas fa-heart"></i></span>
+                        Мои проекты
+                    </h2>
+                    <p class="section-subtitle">Лабораторные работы и учебные проекты</p>
+                </div>
+
                 <div class="projects-grid">
                     <div class="project-card">
-                        <h3>Лабораторная работа №2</h3>
-                        <p class="project-desc">Геометрическая композиция с использованием HTML и CSS. Создание минималистичной графики средствами CSS.</p>
-                        <div class="tech-tags">
-                            <span class="tag">HTML5</span>
-                            <span class="tag">CSS3</span>
-                            <span class="tag">Flexbox</span>
+                        <div class="project-header" style="background: linear-gradient(135deg, #ff9a9e, #fad0c4);">
+                            <div class="project-number">01</div>
+                            <i class="fas fa-shapes project-icon"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>Геометрическая композиция</h3>
+                            <p>Создание минималистичной графики с использованием HTML и CSS. Работа с позиционированием
+                                и анимацией.</p>
+                            <div class="project-tags">
+                                <span class="tag">HTML5</span>
+                                <span class="tag">CSS3</span>
+                                <span class="tag">Flexbox</span>
+                            </div>
                         </div>
                     </div>
-                    
+
                     <div class="project-card">
-                        <h3>Лабораторная работа №3</h3>
-                        <p class="project-desc">Интерактивная форма с клиентской валидацией. Реализация проверки данных с использованием JavaScript и регулярных выражений.</p>
-                        <div class="tech-tags">
-                            <span class="tag">JavaScript</span>
-                            <span class="tag">HTML Forms</span>
-                            <span class="tag">Регулярные выражения</span>
+                        <div class="project-header" style="background: linear-gradient(135deg, #a18cd1, #fbc2eb);">
+                            <div class="project-number">02</div>
+                            <i class="fas fa-file-alt project-icon"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>Интерактивная форма</h3>
+                            <p>Форма с клиентской валидацией на JavaScript. Реализация проверки данных и
+                                пользовательского интерфейса.</p>
+                            <div class="project-tags">
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Forms</span>
+                                <span class="tag">Validation</span>
+                            </div>
                         </div>
                     </div>
-                    
+
                     <div class="project-card">
-                        <h3>Лабораторная работа №4</h3>
-                        <p class="project-desc">Настройка веб-сервера и серверная обработка данных. Создание PHP-форм с валидацией и математическими расчетами.</p>
-                        <div class="tech-tags">
-                            <span class="tag">PHP</span>
-                            <span class="tag">XAMPP</span>
-                            <span class="tag">Apache</span>
+                        <div class="project-header" style="background: linear-gradient(135deg, #ffecd2, #fcb69f);">
+                            <div class="project-number">03</div>
+                            <i class="fas fa-server project-icon"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>Веб-сервер на PHP</h3>
+                            <p>Настройка локального сервера и создание PHP-приложений с обработкой форм и валидацией
+                                данных.</p>
+                            <div class="project-tags">
+                                <span class="tag">PHP</span>
+                                <span class="tag">Apache</span>
+                                <span class="tag">MySQL</span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section class="section education">
-                <h2><i class="fas fa-graduation-cap"></i> Образование</h2>
-                <div class="edu-item">
-                    <h3>Российский государственный университет им. А.Н. Косыгина</h3>
-                    <p class="edu-details">Направление: 09.03.02 Информационные системы и технологии</p>
-                    <p class="edu-details">Профиль: Информационные технологии в дизайне</p>
-                    <p class="edu-details">Группа: ИТКГ-524 | Форма обучения: очная</p>
-                    <p class="edu-period">2023 – настоящее время</p>
+            <!-- Обо мне -->
+            <section class="about-section">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2 class="section-title">
+                            <span class="title-icon"><i class="fas fa-feather-alt"></i></span>
+                            Немного обо мне
+                        </h2>
+                        <p>Я учусь в Российском государственном университете им. А.Н. Косыгина на направлении
+                            "Информационные системы и технологии". Мне нравится совмещать техническую составляющую с
+                            творчеством, создавая не только функциональные, но и эстетически приятные веб-решения.</p>
+                        <p>В свободное время изучаю современные тенденции в веб-дизайне, практикуюсь в создании
+                            интерфейсов и совершенствую свои навыки программирования.</p>
+
+                        <div class="fun-facts">
+                            <div class="fact">
+                                <i class="fas fa-coffee"></i>
+                                <span>Люблю кофе ☕</span>
+                            </div>
+                            <div class="fact">
+                                <i class="fas fa-palette"></i>
+                                <span>Увлекаюсь живописью 🎨</span>
+                            </div>
+                            <div class="fact">
+                                <i class="fas fa-music"></i>
+                                <span>Играю на фортепиано 🎹</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-decoration">
+                        <div class="floating-element large">
+                            <i class="fas fa-laptop"></i>
+                        </div>
+                    </div>
                 </div>
             </section>
-        </div>
-    </main>
+        </main>
+    </div>
 
+    <!-- Футер -->
     <footer class="footer">
-        <div class="container">
-            <div class="social-links">
-                <a href="#" class="social-link"><i class="fab fa-github"></i> GitHub</a>
-                <a href="#" class="social-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                <a href="#" class="social-link"><i class="fab fa-telegram"></i> Telegram</a>
-                <a href="#" class="social-link"><i class="fab fa-codepen"></i> CodePen</a>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <i class="fas fa-heart"></i>
+                <span>Арина Белякова</span>
             </div>
-            <p class="copyright">© 2025 Белякова Анна Владимировна. Все права защищены.</p>
-            <p class="footer-note">Портфолио создано в рамках лабораторной работы по веб-технологиям</p>
+            <p class="footer-text">© 2025 Создано с любовью к коду и дизайну</p>
+            <p class="footer-note">Студентка группы ИТКГ-524 | РГУ им. А.Н. Косыгина</p>
         </div>
     </footer>
+
+    <!-- Скрипт для анимаций -->
+    <script>
+        // Простая анимация появления элементов при скролле
+        document.addEventListener('DOMContentLoaded', function () {
+            const observerOptions = {
+                threshold: 0.1
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('animate__animated', 'animate__fadeInUp');
+                    }
+                });
+            }, observerOptions);
+
+            // Наблюдаем за элементами
+            document.querySelectorAll('.skill-category-card, .project-card').forEach(el => {
+                observer.observe(el);
+            });
+
+            // Анимация сердечка
+            const heart = document.querySelector('.fa-heart');
+            setInterval(() => {
+                heart.style.transform = 'scale(1.2)';
+                setTimeout(() => {
+                    heart.style.transform = 'scale(1)';
+                }, 300);
+            }, 2000);
+        });
+    </script>
 </body>
+
 </html>
